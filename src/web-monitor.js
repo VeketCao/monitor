@@ -4,7 +4,6 @@
  */
 (function (window) {
     var s = window.webmonitor = {};//全局变量
-    var doc = window.document;
     var performance = window.performance || window.webkitPerformance || window.msPerformance || window.mozPerformance || {};
     performance.now = (function() {
         return performance.now        ||
